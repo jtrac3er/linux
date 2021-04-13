@@ -1,18 +1,12 @@
-Linux kernel
-============
+Linux Kernel Fork am 13.04.2021 - 22:06
 
-There are several guides for kernel developers and users. These guides can
-be rendered in a number of formats, like HTML and PDF. Please read
-Documentation/admin-guide/README.rst first.
+Dieser Fork soll für die Modifikation des Kernels dienen, um dessen Funktionalität zu erweitern. 
 
-In order to build the documentation, use ``make htmldocs`` or
-``make pdfdocs``.  The formatted documentation can also be read online at:
+Konkret soll ein neuer Syscall implementiert werden, welcher alle Informationen über geswappte Pages
+ausgibt. Zudem soll der Kernel noch mehr KPrints verwenden, vorallem wenn es um Swapping geht. 
 
-    https://www.kernel.org/doc/html/latest/
-
-There are various text files in the Documentation/ subdirectory,
-several of them using the Restructured Text markup notation.
-
-Please read the Documentation/process/changes.rst file, as it contains the
-requirements for building and running the kernel, and information about
-the problems which may result by upgrading your kernel.
+Ziele dieses Unternehmens:
+* Herausfinden, welche Pages geswappt werden, vorallem die Frage, ob .text Sektionen von Prozessen geswappt werden können oder nicht
+* Mehr über den Linux Kernel und auch allgemein über Kernel lernen
+* Lernen, wie man ein Projekt forkt
+* Lernen, wie man neue Syscalls zum Linux Kernel hinzufügt
