@@ -10,3 +10,4 @@ Ziele dieses Unternehmens:
 * Mehr über den Linux Kernel und auch allgemein über Kernel lernen
 * Lernen, wie man ein Projekt forkt
 * Lernen, wie man neue Syscalls zum Linux Kernel hinzufügt
+* Lernen, wie man den Kernel überhaupt kompiliert und einsetzt 
